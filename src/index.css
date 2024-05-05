@@ -1,13 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400&family=Manrope&family=Sedan+SC&display=swap');
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  color: #0d0d0d;
+  width: 100%;
+  overflow: auto;
+  box-sizing: border-box;
+  display: block;
+  overflow: initial;
+  position: absolute;
+  background: #ffffffff;
+  font-family: 'Lexend', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+option,
+div,
+p {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: 'Lexend', sans-serif;
+}
+
+.body-container {
+  width: 100%;
+}
+
+.custom-select-container {
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+
+.custom-select-display {
+  position: relative;
+  border: 1px solid #ddd;
+  padding: 9px 12px;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: border-color 0.2s;
+}
+
+.custom-select-display:hover,
+.custom-select-display:focus-within {
+  border-color: #a8a8a8;
+}
+
+.custom-select-display input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.custom-select-open .custom-select-arrow {
+  border-top: none;
+  border-bottom: 5px solid #333;
+}
+input::placeholder {
+  font-family: 'Lexend', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.custom-select {
+  min-width: 150px; /* Adjust the value as needed */
 }
