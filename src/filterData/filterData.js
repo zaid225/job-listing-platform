@@ -87,12 +87,31 @@ export const jobTypeOptions = [
 ];
 
 export const minbasePayOptions = [
-  { value: '0L', label: '0L' },
-  { value: '10L', label: '10L' },
-  { value: '20L', label: '20L' },
-  { value: '30L', label: '30L' },
-  { value: '40L', label: '40L' },
-  { value: '50L', label: '50L' },
-  { value: '60L', label: '60L' },
-  { value: '70L', label: '70L' },
+  { value: 0, label: '0L' },
+  { value: 10, label: '10L' },
+  { value: 20, label: '20L' },
+  { value: 30, label: '30L' },
+  { value: 40, label: '40L' },
+  { value: 50, label: '50L' },
+  { value: 60, label: '60L' },
+  { value: 70, label: '70L' },
+];
+
+export const techStackOptions = [
+  { value: 'python', label: 'Python' },
+  { value: 'java', label: 'Java' },
+  { value: 'golang', label: 'GoLang' },
+  { value: 'ruby / rails', label: 'Ruby / Rails' },
+  { value: 'c++', label: 'C++' },
+  { value: 'kotlin', label: 'kotlin' },
+  { value: 'django', label: 'Dajango' },
+  { value: 'c#', label: 'C#' },
+  { value: 'graphql', label: 'GraphQL' },
+  { value: 'flask', label: 'Flask' },
+  { value: 'typescript', label: 'Typescript' },
+  { value: 'aws', label: 'AWS' },
+  { value: 'javascript', label: 'javascript' },
+  { value: 'rust', label: 'rust' },
+  { value: 'nodejs', label: 'NodeJS' },
+  { value: 'react', label: 'React' },
 ];
